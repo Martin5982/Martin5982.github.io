@@ -1,3 +1,21 @@
-h1{
+{
     text-align:center;
+}
+#levy{position:absolute;
+left:30px ;
+height: 2000px;
+top:0px;
+width:300px;}
+
+
+#stred{position:absolute;
+left:350px ;
+height: 2000px;
+top:0px;
+width:500px;}
+
+
+
+img{
+border-radius: 50%;
 }
