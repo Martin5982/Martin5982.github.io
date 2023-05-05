@@ -1,0 +1,13 @@
+
+p{
+    color:white;}
+h1{
+    color:white;}
+body{
+    background-color:black;}
+    #hlava{position:absolute;
+        left:200px ;
+        height: 20px;
+        top:0px;
+        width:80px;
+    background-color:white}
