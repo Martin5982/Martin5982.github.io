@@ -9,13 +9,17 @@
     <meta name="robots" content="all" />
     <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
     <link href="/favicon.png" rel="shortcut icon" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="darkprojekt1.css" />
+    <link rel="stylesheet" type="text/css" href="../css_styly/projekt1.css" />
   </head>
-  <div id="hlava">
-    <a href="projekt1.html" style="z-index: 100">Light mode</a>
-  </div>
 
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener("load", addDarkmodeWidget);
+    </script>
     <h1>Python</h1>
     <p>
       V tomhle projektu jsme ve škole opisovali od tohoto
@@ -23,6 +27,6 @@
       <br />ve které jsme vytvořili ai ,která rozlišovala fotky na fotky , kde
       jsou motorky nebo <br />auta .
     </p>
-    <img src="python1.png" />
+    <img src="../obrazky/python1.png" />
   </body>
 </html>
