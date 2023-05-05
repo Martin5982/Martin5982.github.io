@@ -19,21 +19,21 @@ color:black;}
 #levy{position:absolute;
 left:30px ;
 height: 2000px;
-top:0px;
+top:20px;
 width:300px;}
 
 
 #stred{position:absolute;
 left:350px ;
 height: 2000px;
-top:0px;
+top:20px;
 width:500px;}
 
 #hlava{position:absolute;
     left:200px ;
     height: 20px;
     top:0px;
-    width:70px;
+    width:80px;
 background-color:black}
     
 
