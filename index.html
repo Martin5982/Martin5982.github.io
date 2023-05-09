@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" type="text/css" href="styly.css" />
+    <link rel="stylesheet" type="text/css" href="css_styly/styly.css" />
   </head>
   <body>
-    <div id="hlava">
-      <a href="darkindex.html" style="z-index: 100">Dark mode</a>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener("load", addDarkmodeWidget);
+    </script>
 
     <div id="stred">
       <br /><br /><br />
@@ -31,9 +35,9 @@
       <p>Studuju : IT</p>
 
       <h2>Seznam projektů</h2>
-      <a href="projekt1.html">Python</a><br />
-      <a href="projekt2.html">Excel</a><br />
-      <a href="projekt3.html">FL Studio</a>
+      <a href="stranky/projekt1.html">Python</a><br />
+      <a href="stranky/projekt2.html">Excel</a><br />
+      <a href="stranky/projekt3.html">FL Studio</a>
 
       <h2>Zájmy</h2>
       <p>
@@ -48,8 +52,7 @@
 
     <div id="levy">
       <br /><br /><br />
-      <img src="fotolyzak.jpg" style="width: 150px" />
-
+      <img src="obrazky/fotolyzak.jpg" class="rounded" style="width: 150px" />
       <h2>Kontakt</h2>
       <p>
         mail -
